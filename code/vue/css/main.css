@@ -1,0 +1,148 @@
+#menu, #menu ul /* Liste */     
+{
+        padding : 0; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        list-style : none; /* on supprime le style par défaut de la liste */
+        line-height : 24px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu /* Ensemble du menu */
+{
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 14px; /* hauteur du texte : 12 pixels */
+}
+
+#menu a /* Contenu des listes */
+{
+        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background : #6c6c6c; /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 144px; /* largeur adaptable à fenêtre */
+		border-bottom : 2px grey inset ; /* effet relief */
+		border-right : 2px grey inset ;
+		border-left : 2px grey inset ;
+		border-top : 2px grey inset ;
+		border-radius: 2px;	/* arrondie les coins */
+		box-shadow: 4px 4px 20px black; /* ombre menu: décalage puis adoucissement */
+		text-shadow: 1px 1px 2px black; /* ombre texte */
+}
+
+
+#menu li /* Éléments des listes */      
+{ 
+        float : left; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 3px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li
+{
+        border-right: 3px solid transparent ; /* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        color: #000; /* On passe le texte en noir... */
+        background: #D11321; /* ... et au contraire, le fond en rouge */
+		border-bottom : 2px red inset ; /* effet relief */
+		border-right : 2px red inset ;
+		border-top : 2px red inset ;
+		border-left : 2px red inset ;
+		text-shadow: 0px 0px 0px black; /* enlève ombre texte */
+}
+
+body{
+	 background-color: #E9E9E9;
+	 font-size: 1em;
+	 color: #6e6e6e;
+	 font-family: 'ExoRegular', Helvetica, Arial, sans-serif;
+	 text-rendering: optimizeLegibility;
+}
+
+article{
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+	background-color: white;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 18px;
+	line-height: 20px;
+	font-size: 1.5em;
+	color: black;
+}
+
+h3{
+	font-weight: bold;
+	font-family: inherit;
+	font-size: 1.2em;
+	color: black;
+}
+
+i { 
+    font-style: italic;
+	font-size: 0.8em;
+}
+
+strong{
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #6e6e6e;
+}
+
+mark{
+	font-style: italic;
+	color: #6e6e6e;
+}
+
+em{
+	font-style: italic;
+	font-size: 0.9em;
+	color: #6e6e6e;
+}
+
+
+h1, a{
+	color: #BA111D;
+}
+
+.rouge{
+	background-color:  #BA111D;
+	color: white;
+}
+
+.combobox, .gris_fonce{
+	background-color: #6c6c6c;
+	appearance:none;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+	color: white;	
+}
+
+
+.separation, .orange {
+	background-color: #EB8E17;
+}
+
+.gris_bas_page{
+	background-color: #E0E3E8;
+}
+
+.orange_bas_page{
+	background-color: #EB8E1C;
+	color: white;
+}
+
+
+
+

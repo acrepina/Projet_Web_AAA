@@ -1,0 +1,22 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1217" measuredH="476" mockupW="1067" mockupH="465">
+  <controls>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::CallOut" x="150" y="89" w="-1" h="-1" measuredW="54" measuredH="40" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>main</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::IconLabel" x="284" y="11" w="-1" h="-1" measuredW="54" measuredH="63" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>yungying</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::MenuBar" x="353" y="11" w="864" h="63" measuredW="255" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>2</selectedIndex>
+        <text>AAA%2C%20Choix1%2C%20Choix%202%2C%20Contacts</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::CoverFlow" x="355" y="167" w="836" h="309" measuredW="493" measuredH="198" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::HRule" x="293" y="74" w="924" h="-1" measuredW="100" measuredH="10" zOrder="4" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

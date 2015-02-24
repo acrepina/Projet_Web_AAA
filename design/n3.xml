@@ -1,0 +1,76 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1136" measuredH="584" mockupW="986" mockupH="533">
+  <controls>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::ComboBox" x="395" y="89" w="-1" h="-1" measuredW="80" measuredH="24" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Meridien</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::ComboBox" x="652" y="89" w="-1" h="-1" measuredW="89" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pathologie</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::ComboBox" x="866" y="89" w="-1" h="-1" measuredW="123" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Caract%E9ristique</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::FieldSet" x="390" y="178" w="616" h="217" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>resultat%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::FieldSet" x="387" y="407" w="619" h="177" measuredW="200" measuredH="170" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>resultat%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::VSplitter" x="294" y="167" w="808" h="-1" measuredW="100" measuredH="11" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::CallOut" x="150" y="89" w="-1" h="-1" measuredW="38" measuredH="40" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>3</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="698" y="374" w="-1" h="-1" measuredW="293" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>mon_meridien/ma_pathologie/ma_caracteristique</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="698" y="563" w="-1" h="-1" measuredW="293" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>mon_meridien/ma_pathologie/ma_caracteristique</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::SearchBox" x="525" y="134" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="672" y="135" w="-1" h="-1" measuredW="464" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>pour%20selectionner%20la%20liste%20de%20vos%20symptome%2C%20veuillez%20les%20rentrer%20s%E9parer%20par%20%22%3B%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="400" y="137" w="-1" h="-1" measuredW="73" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Symptomes%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="395" y="374" w="-1" h="-1" measuredW="87" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>mon_symptom</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="395" y="563" w="-1" h="-1" measuredW="87" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>mon_symptom</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="400" y="51" w="-1" h="-1" measuredW="164" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>rechercher%20de%20pathologies%3A</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

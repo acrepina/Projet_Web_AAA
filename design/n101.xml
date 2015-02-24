@@ -1,0 +1,35 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1181" measuredH="580" mockupW="1031" mockupH="507">
+  <controls>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::CallOut" x="150" y="89" w="-1" h="-1" measuredW="47" measuredH="39" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>10.1</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="620" y="73" w="-1" h="-1" measuredW="200" measuredH="212" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pathologies%20de%20m%E9ridien%0APathologies%20d%u2019organe/visc%E8re%20%28tsang/fu%29%0APathologies%20des%20tendino-musculaires%20%28jing%20jin%29%0APathologie%20des%20branches%20%28voies%20luo%29%0APathologies%20des%20merveilleux%20vaisseaux</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="465" y="140" w="-1" h="-1" measuredW="200" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pathologie%20des%20branches%20%28voies%20luo%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="212" y="115" w="969" h="465" measuredW="200" measuredH="212" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Pathologies%20de%20m%E9ridien%0APathologies%20d%u2019organe/visc%E8re%20%28tsang/fu%29%0APathologies%20des%20tendino-musculaires%20%28jing%20jin%29%0APathologie%20des%20branches%20%28voies%20luo%29%0APathologies%20des%20merveilleux%20vaisseaux</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::FieldSet" x="490" y="134" w="676" h="165" measuredW="200" measuredH="170" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>interne</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::FieldSet" x="490" y="299" w="676" h="188" measuredW="200" measuredH="170" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>externe</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
