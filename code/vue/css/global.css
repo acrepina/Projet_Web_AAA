@@ -59,6 +59,7 @@ em{
 
 h1, a{
 	color: #BA111D;
+	text-decoration : none;
 }
 
 .rouge{
@@ -83,7 +84,7 @@ h1, a{
 	background-color: #E0E3E8;
 }
 
-.orange_bas_page{
+.orange_bas_page, .orange_bas_page a{
 	background-color: #EB8E1C;
 	color: white;
 }
