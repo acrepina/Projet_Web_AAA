@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Connexion AAA</title>
-  <link rel="stylesheet" href="../css/Connexion.css">
-</head>
-<body>
+
+  <link rel="stylesheet" href="vue/css/Connexion.css">
+
   <section class="container">
     <div class="login">
       <h1>Connexion AAA</h1>
@@ -28,6 +22,3 @@
     </div>
   </section>
 
- 
-</body>
-</html>

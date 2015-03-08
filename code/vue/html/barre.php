@@ -5,14 +5,14 @@
 
 <link href="vue/css/main.css" rel="stylesheet" type="text/css" />
 
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta  lang="fr"  />
+<meta  lang="fr" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--Empecher mode comptabilité IE-->
 <title>Médecine chinoise AAA</title>
 <meta name="author" content="Crépin-Giraud" />
 <meta name="keywords" content="xhtml, conception, creation de site web, realisation de site web, cours, médecine chinoise, pathologies, symptômes" />
 
-
+<nav>
 <ul >
         <li>
                 <a href="index.php?page=acceuil">AAA</a>
@@ -29,7 +29,8 @@
 	<li id="barre">
         </li> 
         <li class="orange_bas_page" id="connexion">
-                <a href="connexion.html">Connexion</a>
+                <a href="index.php?page=connexion">Connexion</a>
         </li>     
 </ul>
+</nav>
 </head>
