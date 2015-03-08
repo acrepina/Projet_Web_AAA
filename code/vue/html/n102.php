@@ -1,17 +1,8 @@
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+
  
-<html>
-  <head>
-      <link href="../css/global.css" rel="stylesheet" type="text/css"/>
-	  <link href="../css/n102.css" rel="stylesheet" type="text/css"/>
-      <meta  lang="fr"  />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- charset pour charactère speciaux ex: é-->
-</head>
+	  <link href="vue/css/n102.css" rel="stylesheet" type="text/css"/>  
   
-  
-  
-  
-  <body>
+ 
 	<div id="upper_page">
 		<i class="not_connected">Si vous souhaiter acceder à la fonctionnalité de recherche de symptomes,<br/> Veuillez vous identifier </i>
 		<h1>Recherche de pathologies:</h1>
@@ -66,6 +57,4 @@
 			</article>
 		</div>
 	</div>
-  </body>
   
-</html>
