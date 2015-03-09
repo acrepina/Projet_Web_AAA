@@ -1,17 +1,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html>
-	<!-- entete + header -->
-	<?php include("controleur/c_barre.php")?>
-	<body>
-	
+
+<head>
+		<!-- header -->
+		<?php include("vue/html/head.php")?>
+</head>
+
+
+<body>
+	<header>
 		<?php session_start ( ) ; ?>
-		<!-- flux RSS sur le cote -->
-		<aside>
-			<?php include("controleur/c_flux.php"); ?>
-		</aside>
-		
-		<!-- determine si conncter -->
+		<nav>
+				<!-- barre de navigation -->
+				<?php include("controleur/c_barre.php")?>
+		</nav>
+	</header>
+	
+	<section>
+	
+		<!-- determine si connecté -->
 		<?php 
 			if ( isset($_SESSION['email_addr'] )) {
 				$loged = true;
@@ -20,8 +28,8 @@
 		?> 
 		
 		<!-- Corp page  -->
-		<div>
-		<?php 
+		<div class="corp" id="contenu_page">
+		 <?php 
 			if (isset($_GET['page'])){
 				$page=$_GET['page'];
 			}
@@ -30,10 +38,19 @@
 				
 			}
 			include("controleur/c_".$page.".php");
-		?>
+		 ?>
 		</div>
-	</body>	
-	<!-- footer -->
-	<?php include("controleur/c_footer.php")?>
+		
+		<aside class="corp" >		<!-- flux RSS sur le cote -->
+			<?php include("controleur/c_flux.php"); ?>
+		</aside>
+
+
+	</section>
+		
+	<footer class="orange_bas_page">	<!-- footer -->
+		<?php include("controleur/c_footer.php")?>
+	</footer>
 	
+</body>		
 </html>

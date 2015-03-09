@@ -98,18 +98,6 @@ h1, a{
 }
 
 
-#flux{
-    height: 80%;
-    text-align: justify;
-    border: 3px solid grey;
-    overflow: auto;
-	margin-left: 77%;
-	margin-top : 90px;
-	padding-bottom: 100%;
-	word-wrap: break-word;
-}
-
-
 	/*//////////////////////////////////////////
 	// CONNEXION
 	///////////////////////////////////////////*/
@@ -308,8 +296,44 @@ h1, a{
 		width: 500px;
 		background : #6c6c6c; /* couleur de fond grise */ 
 	}
+	/*//////////////////////////////////////////
+	// FOOTER
+	///////////////////////////////////////////*/
 	
+	footer{
+		text-align: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		margin-top: 2%;
+		border-top-left-radius:2em;
+		border-top-right-radius:2em;
+	}
 
+	/*//////////////////////////////////////////
+	// INDEX
+	///////////////////////////////////////////*/
+	
+	.corp{
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	#contenu_page
+	{
 
+		margin: 2%;
+		width: 80%;
+	}
 	
-	
+	aside
+	{
+		position: relative;
+		margin: 2%;
+		width: 10%;
+		height: 30em;
+		box-shadow: 0px 2px 5px #1c1a19;
+		border-radius: 5px;
+		padding: 10px;
+		color: white;
+		
+	}

@@ -1,4 +1,4 @@
-<body>
+
 	<div>
 		<h1>Association d'Acuponcture A</h1>
 		
@@ -10,4 +10,3 @@
 			<p> Copier wikepidia sur l'acuponcture
 			</p>
 	</div>
-</body>

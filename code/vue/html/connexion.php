@@ -1,5 +1,5 @@
 
-<body>
+
   <section class="container">
     <div class="login">
       <h1>Connexion AAA</h1>
@@ -20,4 +20,4 @@
       <p>Mot de passe oublié? <a href="index.html">Cliquer ici</a>.</p>
     </div>
   </section>
-</body>
+
