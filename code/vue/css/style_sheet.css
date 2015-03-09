@@ -20,6 +20,7 @@ article{
     border-radius: 5px;
     padding: 10px;
 	background-color: white;
+	word-wrap: break-word;
 }
 
 h1{
@@ -98,12 +99,13 @@ h1, a{
 
 
 #flux{
-    height: 200px;
+    height: 80%;
     text-align: justify;
     border: 3px solid grey;
     overflow: auto;
 	margin-left: 77%;
 	margin-top : 90px;
+	padding-bottom: 100%;
 	word-wrap: break-word;
 }
 
@@ -207,7 +209,7 @@ h1, a{
     #n101_tabs {
       position: relative;   
       clear: both;
-      margin: 1% 0;      
+      margin: 1%;      
     }
     .n101_tab {
 		height: 10%;

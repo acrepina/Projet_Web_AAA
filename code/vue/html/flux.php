@@ -1,4 +1,6 @@
 <!-- Flux RSS -->
-<div id="flux">
-	<p>flux RSS</p>
-</div>
+<body>
+	<div id="flux">
+		<p>flux RSS</p>
+	</div>
+</body>

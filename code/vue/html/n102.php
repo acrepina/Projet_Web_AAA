@@ -2,7 +2,7 @@
  
 	 <!-- <link href="vue/css/n102.css" rel="stylesheet" type="text/css"/>  -->
   
- 
+ <body>
 	<div id="upper_page">
 		<i class="not_connected" id="n102_i">Si vous souhaitez accéder à la fonctionnalité de recherche de symptômes,<br/> Veuillez vous identifier </i>
 		<h1>Recherche de pathologies:</h1>
@@ -57,4 +57,4 @@
 			</article>
 		</div>
 	</div>
-  
+ </body> 
