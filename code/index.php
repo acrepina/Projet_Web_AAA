@@ -32,8 +32,8 @@
 			include("controleur/c_".$page.".php");
 		?>
 		</div>
-		
-		<!-- footer -->
-		<?php include("controleur/c_footer.php")?>
-	</body>
+	</body>	
+	<!-- footer -->
+	<?php include("controleur/c_footer.php")?>
+	
 </html>

@@ -1,5 +1,5 @@
 /*
-	CHARTE DE COULEUR A APLIQUER POUR LE SITE AAA
+	CHARTE DE COULEUR A APPLIQUER POUR LE SITE AAA
 */
 
 	/*//////////////////////////////////////////
@@ -12,6 +12,7 @@ body{
 	 color: #6e6e6e;
 	 font-family: 'ExoRegular', Helvetica, Arial, sans-serif;
 	 text-rendering: optimizeLegibility;
+	 padding-left : 10px;
 }
 
 article{
@@ -19,7 +20,6 @@ article{
     border-radius: 5px;
     padding: 10px;
 	background-color: white;
-	
 }
 
 h1{
@@ -31,6 +31,7 @@ h2{
 	line-height: 20px;
 	font-size: 1.5em;
 	color: black;
+	padding-top : 20px;
 }
 
 h3{
@@ -94,6 +95,18 @@ h1, a{
 	background-color: #EB8E1C;
 	color: white;
 }
+
+
+#flux{
+    height: 200px;
+    text-align: justify;
+    border: 3px solid grey;
+    overflow: auto;
+	margin-left: 77%;
+	margin-top : 90px;
+	word-wrap: break-word;
+}
+
 
 	/*//////////////////////////////////////////
 	// CONNEXION
@@ -250,6 +263,8 @@ h1, a{
 			font-weight : bold; /* on met le texte en gras */
 			font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
 			font-size : 18px; /* hauteur du texte : 12 pixels */
+			padding-top : 10px;
+			padding-bottom : 25px;
 	}
 
 
@@ -290,7 +305,6 @@ h1, a{
 		padding : 25px; /* taille du block */
 		width: 500px;
 		background : #6c6c6c; /* couleur de fond grise */ 
-		
 	}
 	
 
