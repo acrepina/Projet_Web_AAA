@@ -262,12 +262,29 @@ h1, a{
 			float : left; /* Aligne les blocks les uns à côté des autres (au lieu de dessous) */
 		padding : 15px; /* taille des blocks */
 	}
+	
+
 
 	.menu_li:hover /* Lorsque la souris passe sur un des liens */    
 	{
-			background: #D11321; /* ... et au contraire, le fond en rouge */
+			background-color: #D11321; /* ... et au contraire, le fond en rouge */
 			text-shadow: 0px 0px 0px black; /* enlève ombre texte */
 	}
+	
+	#menu_connexion{
+		background-color: #EB8E1C;
+		/*color: white;*/
+	}
+	
+	#menu_connexion:hover{
+		background-color: #D11321;
+	}
+	
+	.menu_a{
+			color: white;
+			text-decoration : none;
+	}
+	
 
 	#barre {
 		padding : 25px; /* taille du block */
@@ -275,4 +292,8 @@ h1, a{
 		background : #6c6c6c; /* couleur de fond grise */ 
 		
 	}
+	
 
+
+	
+	
