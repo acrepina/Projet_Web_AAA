@@ -1,12 +1,12 @@
 
  
-	  <link href="vue/css/n102.css" rel="stylesheet" type="text/css"/>  
+	 <!-- <link href="vue/css/n102.css" rel="stylesheet" type="text/css"/>  -->
   
  
 	<div id="upper_page">
-		<i class="not_connected">Si vous souhaitez accéder à la fonctionnalité de recherche de symptômes,<br/> Veuillez vous identifier </i>
+		<i class="not_connected" id="n102_i">Si vous souhaitez accéder à la fonctionnalité de recherche de symptômes,<br/> Veuillez vous identifier </i>
 		<h1>Recherche de pathologies:</h1>
-		<nav id="part1">
+		<nav id="n102_part1">
 			<form id="combobox1">
 				<select class="combobox" name="box_meridien">
 					<option id="all">Méridien</option>
@@ -24,9 +24,9 @@
 				</select>
 			</form>
 		</nav>
-		<nav id="part2">
+		<nav id="n102_part2">
 			<div class="connected">
-					<h3>Symptômes:</h3>
+					<h3 id="n102_h3">Symptômes:</h3>
 					<form id="input_sympt">
 						<input type="text" value="entrer vos symtômes"></input>
 						<input class="rouge" type="submit" value="go"></input>
@@ -38,9 +38,9 @@
 	<hr/>
 	<div id="lower_page">
 		<div id="mes_result">
-			<article>
+			<article id="n102_article">
 				<!-- resutat requet -->
-				<h4> Mon Résultat</h4>
+				<h4 id="n102_h4"> Mon Résultat</h4>
 				<p>mon résultat bla bla chinoi bla bla</p>
 				<em class="bottom_article">
 					<ol class="critere_symptome" >
