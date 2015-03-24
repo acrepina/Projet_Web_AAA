@@ -1,1 +1,1 @@
-<?php include("/vue/html/contacts.php")?>
+<?php include("/vue/html/contacts.html")?>

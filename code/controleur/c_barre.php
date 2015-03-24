@@ -1,1 +1,1 @@
-<?php include("/vue/html/barre.php")?>
+<?php include("/vue/html/barre.html")?>

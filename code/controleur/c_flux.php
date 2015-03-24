@@ -1,1 +1,1 @@
-<?php include("/vue/html/flux.php")?>
+<?php include("/vue/html/flux.html")?>

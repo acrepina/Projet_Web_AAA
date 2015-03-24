@@ -4,7 +4,7 @@
 
 <head>
 		<!-- header -->
-		<?php include("vue/html/head.php")?>
+		<?php include("vue/html/head.html")?>
 </head>
 
 
