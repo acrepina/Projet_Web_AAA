@@ -1,0 +1,10 @@
+<footer>
+	<div>
+		<a href="index.php?page=acceuil">notre association</a>
+		<a href="index.php?page=contacts"> Nous joindre</a>
+	</div>
+	<div>
+		<p> all right reserved /  propriéter intellectuel de Association Accuponcture A</p>
+		<p>Copyright c<p>
+	</div>
+</footer>
