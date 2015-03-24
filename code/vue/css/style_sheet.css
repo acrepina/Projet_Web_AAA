@@ -349,7 +349,7 @@ body {
   /*foreground: #0ca3d2;	fond bleu*/
 }
 
-.container {
+.container {		/* Mis en page centrée et avec une parge au-dessus */
   margin: 80px auto;
   width: 640px;
 }
