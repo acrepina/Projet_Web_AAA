@@ -25,6 +25,7 @@ article{
 
 h1{
 	font-size: 2em;
+	font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
 }
 
 h2{
@@ -33,18 +34,23 @@ h2{
 	font-size: 1.5em;
 	color: black;
 	padding-top : 20px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
 }
 
 h3{
+	font-size: 10px;
 	font-weight: bold;
-	font-family: inherit;
+	/*font-family: inherit;*/
 	font-size: 1.2em;
 	color: black;
+	line-height: 10px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
 }
 
 i { 
     font-style: italic;
 	font-size: 0.8em;
+	font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
 }
 
 strong{
@@ -262,7 +268,7 @@ h1, a{
 		display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
 		background : #6c6c6c; /* couleur de fond grise */        
 			border-radius: 2px;	/* arrondie les coins */
-			box-shadow: 2px 2px 10px black; /* ombre menu: décalage puis adoucissement */
+			box-shadow: 2px 2px 8px black; /* ombre menu: décalage puis adoucissement */
 			text-shadow: 1px 1px 2px black; /* ombre texte */
 			float : left; /* Aligne les blocks les uns à côté des autres (au lieu de dessous) */
 		padding : 15px; /* taille des blocks */
@@ -335,7 +341,6 @@ h1, a{
 		border-radius: 5px;
 		padding: 10px;
 		color: white;
-		
 	}
 
 	
@@ -345,13 +350,28 @@ h1, a{
 	///////////////////////////////////////////*/
 
 body {
-  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;	/* Ecriture de connexion aaa */
-  /*foreground: #0ca3d2;	fond bleu*/
+	/*font: 13px/20px sans-serif;	 Ecriture de connexion aaa en h2 plus petit */
+	
 }
 
-.container {		/* Mis en page centrée et avec une parge au-dessus */
-  margin: 80px auto;
-  width: 640px;
+.connexion_global {
+	display: inline;
+}
+
+.connexion_container1 {		/* Mis en page centrée et avec une parge au-dessus */
+  float: left;
+  margin-left: 120px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  /*width: 640px;*/
+}
+
+.connexion_container2 {		/* Mis en page centrée et avec une parge au-dessus */
+  float: left;
+  margin-left: 160px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  /*width: 640px;*/
 }
 
 .login {
@@ -375,14 +395,10 @@ body {
   background: rgba(0, 0, 0, 0.08);
   border-radius: 4px;
 }
-.login h1 {
+.login h2 {
   margin: -20px -20px 21px;
   line-height: 40px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #555;
   text-align: center;
-  text-shadow: 0 1px white;
   background: #f3f3f3;
   border-bottom: 1px solid #cfcfcf;
   border-radius: 3px 3px 0 0;
