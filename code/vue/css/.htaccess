@@ -1,4 +1,0 @@
-AuthUserFile C:\wamp\www\htaccess_gestion\.htpasswd
-AuthName "Trololo qu'est-que tu fais la?"
-AuthType Basic
-Require valid-user

@@ -30,14 +30,22 @@
 		<!-- Corp page  -->
 		<div class="corp" id="contenu_page">
 		 <?php 
+		 
+			
 			if (isset($_GET['page'])){
-				$page=$_GET['page'];
+				$page= htmlspecialchars($_GET['page']);
 			}
 			else{
 				$page = 'acceuil' ;
 				
 			}
-			include("controleur/c_".$page.".php");
+			if (file_exists ("controleur/c_".$page.".php")){
+				include("controleur/c_".$page.".php");
+			}
+			else{
+				include("vue/html/error/404.html");
+			}
+			
 		 ?>
 		</div>
 		
