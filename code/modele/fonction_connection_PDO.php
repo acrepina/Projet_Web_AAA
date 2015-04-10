@@ -1,42 +1,39 @@
 <?php
 	function open_recherche_PDO(){
-	
-	$dsn = 'mysql:dbname=ma_base_v2;host=127.0.0.1';
+	$dsn = 'mysql:dbname=AAA;host=127.0.0.1';
 		$user = 'recherche';
-		$password = 'xZDyPbEHMCK2WVSu';
+		$password = 'bXnCHNnZdxzzKtPA';
 
 		try {
 			$dbh = new PDO($dsn, $user, $password);
 			$dbh->exec("SET CHARACTER SET utf8");
 		} catch (PDOException $e) {
-			echo 'Connexion échouée : ' . $e->getMessage();
+			$dbh = 'Connexion échouée : ' . $e->getMessage();
+			echo $dbh;
 		}
 	return $dbh;
 	}
 
 
-	function open_login_PDO(){
-
-			$dsn = 'mysql:dbname=ma_base_v2;host=127.0.0.1';
+function open_login_PDO(){
+		$dsn = 'mysql:dbname=AAA;host=127.0.0.1';
 		$user = 'connection';
-		$password = 'enHyudn4spKNDjbS';
+		$password = 'bXnCHNnZdxzzKtPA';
 
 		try {
 			$dbh = new PDO($dsn, $user, $password);
 		} catch (PDOException $e) {
 			echo 'Connexion échouée : ' . $e->getMessage();
 		}
-return $dbh;
+		return $dbh;
 }
 	
 
-	function open_inscription_PDO(){
-	
-	  
+function open_inscription_PDO(){	  
 /* Connexion à une base ODBC avec l'invocation de pilote */
-	$dsn = 'mysql:dbname=ma_base_v2;host=127.0.0.1';
+	$dsn = 'mysql:dbname=AAA;host=127.0.0.1';
 	$user = 'inscription';
-	$password = 'uBnQcbh6ZnX7asDz';
+	$password = 'bXnCHNnZdxzzKtPA';
 
 	try {
 		$dbh = new PDO($dsn, $user, $password);

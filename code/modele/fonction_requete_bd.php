@@ -2,11 +2,8 @@
 function inscription_client($dbh){
 	
 	$_POST['emailaddr'] = htmlspecialchars($_POST['emailaddr']);
-	$_POST['name'] = htmlspecialchars($_POST['name']);
-	$_POST['first_name'] = htmlspecialchars($_POST['first_name']);
-	$_POST['pseudo'] = htmlspecialchars($_POST['pseudo']);
 	$_POST['password_user'] = htmlspecialchars($_POST['password_user']);
-	$count = $dbh->exec("INSERT INTO liste_clients VALUES (\"".$_POST['emailaddr']."\",\"".$_POST['name']."\",\"".$_POST['first_name']."\",\"".$_POST['pseudo']."\",\"".$_POST['password_user']."\")");
+	$count = $dbh->exec("INSERT INTO liste_clients VALUES (\"".$_POST['emailaddr']."\",\"".$_POST['password_user']."\")");
 }
 
 function identifiction($dbh){
@@ -65,14 +62,6 @@ function ouverture_session(){
 		
 }
 
-function affiche_pseudo($dbh){
-		$request = "SELECT pseudo FROM liste_clients WHERE email_addr=\"".$_POST['email_addr']."\"";
-		$pseudo = $dbh->query($request);
-		
-		foreach($pseudo as $row42){
-			echo $row42['pseudo'];
-		}
-	}
 
 function recherche_bd($dbh){
 
@@ -159,11 +148,11 @@ function recherche_avancee_bd($dbh){
 
 
 	if($_POST['meridien']=='')
-	{$_POST['meridien']='%';}
+			{$_POST['meridien']='%';}
 	if($_POST['type_sy']=='')
-	{$_POST['type_sy']='%';}
+			{$_POST['type_sy']='%';}
 	if($_POST['description']=='')
-	{$_POST['description']='%';}
+			{$_POST['description']='%';}
 
 	
 	$_POST['meridien'] = htmlspecialchars($_POST['meridien']);
