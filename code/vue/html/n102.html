@@ -2,41 +2,61 @@
  
 	 <!-- <link href="vue/css/n102.css" rel="stylesheet" type="text/css"/>  -->
   
- <body>
+
 	<div id="upper_page">
 		<i class="not_connected" id="n102_i">Si vous souhaitez accéder à la fonctionnalité de recherche de symptômes,<br/> Veuillez vous identifier </i>
 		<h1>Recherche de pathologies:</h1>
+		<form method="post" action="controleur/recherche_n102.php" id="combobox">
 		<nav id="n102_part1">
-			<form id="combobox1">
+			
 				<select class="combobox" name="box_meridien">
 					<option id="all">Méridien</option>
-					<<MERIDIEN>>
-					<!-- add options with PHP  -->
+					<option value="ChM">Chong Mai</option>
+					<option value="C">Coeur</option>
+					<option value="DaiM">Dai Mai</option>
+					<option value="DM">Du Mai</option>
+					<option value="E">Estomac</option>
+					<option value="F">Foie</option>
+					<option value="GI">Gros Intestin</option>
+					<option value="IG">Instestin Grele</option>
+					<option value="P">Poumon</option>
+					<option value="MC">Protecteur du coeur</option>		   
+				   <option value="Rte">Rate pancreas</option>
+				   <option value="R">Rein</option>
+				   <option value="RM">Ren Mai</option>          
+				   <option value="TR">Triple rechauffeur</option>		   
+				   <option value="VB">Vesicule biliaire</option>
+				   <option value="V">Vessie</option>
+				   <option value="+QM">Yang Qiao Mai</option>
+				   <option value="+WM">Yang Wei Mai</option>
+				   <option value="-QM">Yin Qiao Mai</option>
+				   <option value="-WM">Yin Wei Mai</option>
 				</select>
 			
 				<select class="combobox" name="box_pathologie">
 					<option id="all">Pathologie</option>
 					<<PATHOLOGIE>>
-					<!-- add options with PHP  -->
+					<!-- add options   -->
 				</select>
 			
 				<select class="combobox" name="box_carater">
 					<option id="all">Caractéristique</option>
 					<<CARACTERISTIQUE>>
-					<!-- add options with PHP  -->
+					<!-- add options   -->
 				</select>
-			</form>
+			
 		</nav>
 		<nav id="n102_part2">
 			<div class="connected">
 					<h3 id="n102_h3">Symptômes:</h3>
-					<form id="input_sympt">
+					<div id="input_sympt">
 						<input type="text" value="entrer vos symtômes"></input>
 						<input class="rouge" type="submit" value="go"></input>
 						<i>Pour sélectionner la liste de vos symptômes, veuillez les séparer par ";"</i>
-					</form>
+					</div>
 			</div>
 		</nav>
+		</form>
 	</div>
 	<hr/>
 	<div id="lower_page">
@@ -44,4 +64,4 @@
 			<<MES_RESULT_n102>>
 		</div>
 	</div>
- </body> 
+
