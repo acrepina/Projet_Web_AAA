@@ -27,8 +27,9 @@
     <div class="connexion_login">
       <h2>Inscription AAA</h2>
       <form method="post" action="BDD.php">
-        <p><input type="text" name="login" id = "email_addr_repeat" value="" placeholder="Email" required></input></p>
-        <p><input type="password" name="password" value="" placeholder="Mot de passe"></input></p>
+        <p><input type="text" name="login" id = "email_addr" value="" placeholder="Email" required></input></p>
+        <p><input type="password" name="password" id="password_user" placeholder="Mot de passe"></input></p>
+		<p><input type="password" name="password2" id="password_user2" value="" placeholder="Mot de passe" onchange="jsFunction()"></input></p>
         <p class="submit"><input type="submit" name="commit"  id = "password_user" value="S'inscrire" required></input></p>
       </form>
     </div>
