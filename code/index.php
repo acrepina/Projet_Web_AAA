@@ -9,15 +9,15 @@
 
 
 <body>
-	<header>
+	<div class="header">
 		<?php session_start ( ) ; ?>
-		<nav>
+		<div>
 				<!-- barre de navigation -->
 				<?php include("controleur/c_barre.php")?>
-		</nav>
-	</header>
+		</div>
+	</div>
 	
-	<section>
+	<div class="section">
 	
 		<!-- determine si connecté -->
 		<?php 
@@ -49,16 +49,22 @@
 		 ?>
 		</div>
 		
-		<aside class="corp" >		<!-- flux RSS sur le cote -->
+		<div class="corp">		<!-- flux RSS sur le cote -->
+		<div class="aside">
 			<?php include("controleur/c_flux.php"); ?>
-		</aside>
+		</div>	
+		</div>
 
-
-	</section>
+	</div>
 		
-	<footer class="orange_bas_page">	<!-- footer -->
+	<div class="orange_bas_page">	<!-- footer -->
+	<div class="footer">
 		<?php include("controleur/c_footer.php")?>
-	</footer>
+	</div>
+	</div>
 	
-</body>		
+</body>
+
+
+		
 </html>
