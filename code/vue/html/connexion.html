@@ -3,21 +3,27 @@
   <div class="connexion_container1">
     <div class="connexion_login">
       <h2>Connexion AAA</h2>
+<<<<<<< .mine
+      <form method="post" action="BDD.php">
+        <p><input type="text" name="login" value="" placeholder="Email"></p>
+        <p><input type="password" name="password" value="" placeholder="Mot de passe"></p>
+=======
       <form method="post" action="index.php">
         <p><input type="email" name="login" value="" placeholder="Email"></p> 		<!-- < ?php $login_visiteur = ; ?> -->
         <p><input type="password" name="password" value="" placeholder="Mot de passe"></p>		<!-- < ?php $password_visiteur = ; ?> -->
+>>>>>>> .theirs
         <p class="remember_me">
           <label>
             <input type="checkbox" name="remember_me" id="remember_me">
             Se souvenir de moi
           </label>
         </p>
-        <p class="submit"><input type="submit" name="commit" value="Se connecter"></p>	<!-- <a href="n101.php?nom=login_visiteur">echo Bonjour $_GET['login_visiteur'] !</a> -->
+        <p class="submit"><input type="submit" name="commit" value="Se connecter"></p>
       </form>
     </div>
 
     <div class="connexion_login-help">
-      <p>Mot de passe oublié? <a href="index.php">Cliquer ici</a>.</p>
+      <p>Mot de passe oublié? <a href="BDD.php">Cliquer ici</a>.</p>
     </div>
   </div>
 
@@ -25,7 +31,7 @@
   <div class="connexion_container2">
     <div class="connexion_login">
       <h2>Inscription AAA</h2>
-      <form method="post" action="index.php">
+      <form method="post" action="BDD.php">
         <p><input type="email" id = "email_addr_repeat" name="login" value="" placeholder="Email" required></p>
         <p><input type="password" name="password" value="" placeholder="Mot de passe"></p>
         <p class="submit"><input type="submit" name="commit"  id = "password_user" value="S'inscrire" required></p>
