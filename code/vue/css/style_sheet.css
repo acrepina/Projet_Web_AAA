@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CHARTE DE COULEUR A APPLIQUER POUR LE SITE AAA
 */
 
@@ -397,7 +397,7 @@ h1, a{
 .connexion_login p:first-child {	/* positionne case titre*/ 
   margin-top: 0;
 }
-.connexion_login input[type=text], .login input[type=password] {
+.connexion_login input[type=email], .login input[type=password] {
   width: 278px;
 }
 .connexion_login p.remember_me {
@@ -449,7 +449,7 @@ input {
   font-size: 97%;
 }
 
-input[type=text], input[type=password] {
+input[type=email], input[type=password] {
   margin: 3%;
   padding: 0 10px;
   width: 82%;	/*largeur case mdp*/
@@ -464,7 +464,7 @@ input[type=text], input[type=password] {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
 }
-input[type=text]:focus, input[type=password]:focus {
+input[type=email]:focus, input[type=password]:focus {
   border-color: #EB8E1C;
   outline-color: #FFE4B5;
   outline-offset: 0;
@@ -498,6 +498,6 @@ input[type=submit]:active {
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-.lt-ie9 input[type=text], .lt-ie9 input[type=password] {
+.lt-ie9 input[type=email], .lt-ie9 input[type=password] {
   line-height: 20%;
 }
