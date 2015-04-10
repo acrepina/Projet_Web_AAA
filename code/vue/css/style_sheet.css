@@ -253,9 +253,9 @@ h1, a{
 			text-align : center; /* on centre le texte qui se trouve dans la liste */
 			font-weight : bold; /* on met le texte en gras */
 			font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
-			font-size : 18px; /* hauteur du texte : 12 pixels */
-			padding-top : 10px;
-			padding-bottom : 25px;
+			font-size : 110%; /* hauteur du texte : 12 pixels */
+			padding-top : 2%;
+			padding-bottom : 15%;
 	}
 
 
@@ -266,7 +266,7 @@ h1, a{
 			box-shadow: 2px 2px 8px black; /* ombre menu: décalage puis adoucissement */
 			text-shadow: 1px 1px 2px black; /* ombre texte */
 			float : left; /* Aligne les blocks les uns à côté des autres (au lieu de dessous) */
-		padding : 15px; /* taille des blocks */
+		padding : 1.18%; /* taille des blocks */
 	}
 	
 
@@ -293,7 +293,7 @@ h1, a{
 	
 
 	#barre {
-		padding : 25px; /* taille du block */
+		padding : 2%; /* taille du block */
 		width: 500px;
 		background : #6c6c6c; /* couleur de fond grise */ 
 	}
