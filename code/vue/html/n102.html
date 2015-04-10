@@ -7,7 +7,7 @@
 		<i class="not_connected" id="n102_i">Si vous souhaitez accéder à la fonctionnalité de recherche de symptômes,<br/> Veuillez vous identifier </i>
 		<h1>Recherche de pathologies:</h1>
 		<form method="post" action="controleur/recherche_n102.php" id="combobox">
-		<nav id="n102_part1">
+		<div id="n102_part1">
 			
 				<select class="combobox" name="box_meridien">
 					<option id="all">Méridien</option>
@@ -45,8 +45,8 @@
 					<!-- add options   -->
 				</select>
 			
-		</nav>
-		<nav id="n102_part2">
+		</div>
+		<div id="n102_part2">
 			<div class="connected">
 					<h3 id="n102_h3">Symptômes:</h3>
 					<div id="input_sympt">
@@ -55,7 +55,7 @@
 						<i>Pour sélectionner la liste de vos symptômes, veuillez les séparer par ";"</i>
 					</div>
 			</div>
-		</nav>
+		</div>
 		</form>
 	</div>
 	<hr/>

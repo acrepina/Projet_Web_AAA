@@ -113,19 +113,19 @@ h1, a{
 		text-align: center;
 	}
 
-	#n102_part1{
+	.n102_part1{
 		display: inline-block; 
 		margin-left: 10%;
 		margin-right: 10%;
 		width: 80%;
 		text-align: center;
 	}
-	#n102_part1 select{
+	.n102_part1 select{
 		display: inline-block;
 		margin-right: 10%;
 	}
 
-	#n102_part2 {
+	.n102_part2 {
 		display: inline-block;
 		width: 80%;
 	}
